@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DF3D3BB1C6A73C800D926BD /* Open-MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3D3BA1C6A73C800D926BD /* Open-MeTests.m */; };
 		96A82334280A4C2CBB7EDCF6 /* libPods-Open-MeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3BDE501DA541E8A349FFEB /* libPods-Open-MeTests.a */; };
 		BD8995311BCD4E1A00663058 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8995301BCD4E1A00663058 /* Launch Screen.storyboard */; };
 		D8663B4618C6528F00B37118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8663B4518C6528F00B37118 /* Foundation.framework */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		4D3BDE501DA541E8A349FFEB /* libPods-Open-MeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Open-MeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747C0F8327C5DC8CA3A68502 /* Pods-Open-MeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open-MeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Open-MeTests/Pods-Open-MeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DF3D3BA1C6A73C800D926BD /* Open-MeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Open-MeTests.m"; sourceTree = "<group>"; };
 		BD8995301BCD4E1A00663058 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D3E344FE3AB14CA9E7840956 /* Pods-Open-MeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open-MeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Open-MeTests/Pods-Open-MeTests.release.xcconfig"; sourceTree = "<group>"; };
 		D8663B4218C6528F00B37118 /* Open-Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open-Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +156,7 @@
 		D8663B6A18C6528F00B37118 /* Open-MeTests */ = {
 			isa = PBXGroup;
 			children = (
+				7DF3D3BA1C6A73C800D926BD /* Open-MeTests.m */,
 				D8663B6B18C6528F00B37118 /* Supporting Files */,
 			);
 			path = "Open-MeTests";
@@ -328,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF3D3BB1C6A73C800D926BD /* Open-MeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
